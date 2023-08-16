@@ -1,0 +1,44 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-bottom: 2px solid grey;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+    font-size: 30px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a.active{
+    color: rgb(17, 128, 255);
+}
+
+

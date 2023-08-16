@@ -1,0 +1,21 @@
+.container{
+    background-color: rgba(255, 255, 255, .8);
+    width: 800px;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+   margin:auto;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 40px;
+}
+
+#abilities-list{
+    list-style-type: initial;
+}
